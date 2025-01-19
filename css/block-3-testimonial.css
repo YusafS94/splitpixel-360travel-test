@@ -40,21 +40,14 @@
 }
 .testimonial-heading {
   font-weight: 400;
-  /* width: 50%; */
+  font-size: 26px;
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 100%;
+  max-width: 1000px;
 }
-/* .testimonial-heading::before {
-    position: relative;
-    top: 0;
-    left: 0;
-    content: url("/images/open-quote.svg");
-    width: 100px;
-    height: 100px;
-  }
-  .testimonial-heading::after {
-    position: relative;
-    top: 0;
-    right: 0;
-    content: url("/images/close-quote.svg");
-    width: 100px;
-    height: 100px;
-  } */
+.testimonial-subheading {
+  font-size: 20px;
+}
+.text-span {
+  font-size: 24px;
+}

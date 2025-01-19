@@ -25,9 +25,6 @@
   width: 350px;
   max-width: 100%;
 }
-/* .explore-cta-heading, .explore-cta-subheading, .explore-cta-paragraph {
-    color: var(--secondary-colour);
-  } */
 .explore-cta-subheading {
   font-weight: 400;
 }
@@ -46,5 +43,9 @@
   }
   .explore-cta-inner-img {
     margin: 2em auto;
+  }
+  .explore-cta-left {
+    order: 1;
+    text-align: left;
   }
 }

@@ -26,6 +26,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  padding: 30px 30px 25px;
 }
 
 .individual-card:hover > * {
@@ -104,5 +105,8 @@
   .four-section-cards {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
+  }
+  .individual-card:not(hover) > .individual-card-subheading {
+    opacity: 1;
   }
 }
