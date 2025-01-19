@@ -1,0 +1,60 @@
+/* Block 3 - Testimonial */
+.testimonial-section {
+  background-color: var(--primary-colour);
+}
+.testimonial-outer {
+  text-align: center;
+  height: 400px;
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.open-quote {
+  background-image: url("/images/open-quote.svg");
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  top: 140px;
+  left: 0px;
+  font-size: 3em;
+}
+.close-quote {
+  background-image: url("/images/close-quote.svg");
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  top: 100px;
+  right: 0px;
+  font-size: 3em;
+}
+.testimonial-heading,
+.testimonial-subheading {
+  color: var(--secondary-colour);
+}
+.testimonial-heading {
+  font-weight: 400;
+  /* width: 50%; */
+}
+/* .testimonial-heading::before {
+    position: relative;
+    top: 0;
+    left: 0;
+    content: url("/images/open-quote.svg");
+    width: 100px;
+    height: 100px;
+  }
+  .testimonial-heading::after {
+    position: relative;
+    top: 0;
+    right: 0;
+    content: url("/images/close-quote.svg");
+    width: 100px;
+    height: 100px;
+  } */

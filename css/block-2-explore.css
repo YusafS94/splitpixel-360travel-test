@@ -1,0 +1,50 @@
+/* Block 2 - Explore CTA */
+.explore-section {
+  background-color: var(--secondary-colour);
+  padding: 6em 0;
+}
+.explore-cta-outer {
+  max-width: 960px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+.explore-cta-inner {
+  width: 50%;
+}
+.explore-cta-right {
+}
+.explore-cta-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.explore-cta-inner-img {
+  margin-left: auto;
+  width: 350px;
+  max-width: 100%;
+}
+/* .explore-cta-heading, .explore-cta-subheading, .explore-cta-paragraph {
+    color: var(--secondary-colour);
+  } */
+.explore-cta-subheading {
+  font-weight: 400;
+}
+.explore-cta-button {
+  align-self: flex-start;
+}
+
+/* Tablet and smaller view */
+@media screen and (max-width: 768px) {
+  .explore-cta-outer {
+    flex-direction: column;
+  }
+  .explore-cta-inner {
+    width: 100%;
+    text-align: center;
+  }
+  .explore-cta-inner-img {
+    margin: 2em auto;
+  }
+}

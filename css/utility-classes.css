@@ -1,0 +1,23 @@
+/* Utility classes */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.button {
+  padding: 1em 1.5em;
+  background-color: var(--tertiary-colour);
+  color: var(--primary-colour);
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.button:hover {
+  background-color: var(--accent-colour);
+  /* color: var(--secondary-colour); */
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+.button:not(:hover) {
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
